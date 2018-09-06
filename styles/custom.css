@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "DymaxionScript";
+  src: url("../assets/dymaxion.ttf") format("truetype");
+}
+
+body {
+    font-family: "DymaxionScript";
+}
+
+.main-container {
+    background: linear-gradient(rgba(0,184,255,0.32), rgba(0, 8, 255, 0.18)),
+    url('../assets/edited.png');
+    background-size: cover;
+    min-height: 100vh; 
+    background-position-x: center;
+}
+
+.main-container p {
+    color: #ffffffcf;
+    float: right;
+    text-align: right;
+}
+
+.content-box {
+  text-align: center;
+  padding: 0px;
+  padding-top: 7%;
+}
+
+.content-box p {
+    float: none;
+    text-align: center;
+    font-size: 25px;
+    font-size: 5rem;
+}
+
+.content-box p:first-child {
+    line-height: 0.9;
+    margin-bottom: 100%;
+    font-size: 6rem;
+    color: #ffffff;
+}
+
+.content-box p a {
+    color: #ffffffcf;
+}
+
+.content-box p:nth-child(2) {
+    line-height: 1.4;
+    margin-bottom: 0px;
+    font-size: 4rem;
+    padding-left: 3%;
+}
+
+.content-box p .fa {
+    margin-right: 19px;
+}
+
+.content-box p .fa:hover {
+    color: #ffffff;
+    transition: all 350ms ease;
+    font-size: 5.1rem;
+}
+
+@media only screen and (min-width: 786px){
+
+    .content-box p:first-child {
+        line-height: 1;
+        font-size: 7rem;
+        color: #ffffffcf;
+        margin-bottom: 0px;
+    }
+
+    .content-box p:nth-child(2) {
+        padding-left: 0px;
+    }
+
+    .content-box {
+        padding-top: 53%;
+        padding-right: 13%;
+    }
+
+    .content-box p:nth-child(2) {
+        font-size: 5rem;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+/*.main-nav {
+    background: black!important;
+    position: fixed;
+    width: 100%;
+}
+
+.main-nav p {
+    font-size: 12px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #d1d7d5;
+}
+
+.fixed-bg {
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 600px;
+}
+
+.hero1 {
+    background: url('../assets/pic.jpg');
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20%;
+    text-align: center;
+}
+
+.hero1 h1 {
+    font-size: 60px;
+    color: #ffffff;
+    background: #0c0b0b4f;
+    display: inline-block;
+    padding: 1%;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.divider {
+    background: black;
+    width: 100%;
+    height: auto;
+    padding: 70px;
+    color: #d1d7d5;
+    text-align: center;
+}*/
